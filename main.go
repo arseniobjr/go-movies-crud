@@ -41,6 +41,10 @@ func deleteMovie(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+func getMovie(w http.ResponseWriter, r *http.Request) {
+
+}
+
 func main() {
 	fmt.Println("Hello CRUD API with Golang")
 
